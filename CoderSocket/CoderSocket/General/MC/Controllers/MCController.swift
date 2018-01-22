@@ -23,7 +23,7 @@ class MCController: UIViewController {
     var reciveImageModel: Array<PhotoAssetsModel> = []
     
     // MARK: 与传输有关
-    let serviceType = "CoderHG-FileConnect"
+    let serviceType = "HG-FileConnet"
     var peerID: MCPeerID!
     var session: MCSession!
     // 接受方
