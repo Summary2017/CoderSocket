@@ -55,11 +55,20 @@ class MCController: UIViewController {
     
     // 开启面对面 有点乱, 但是能通就行
     @IBAction func openShare(_ sender: UIButton) {
+        // 先停止
+        disConnect()
+        
         // 开始接收
-        self.advertiser.startAdvertisingPeer()
+        advertiser.startAdvertisingPeer()
         
         // 开始邀请
-        self.browser.startBrowsingForPeers()
+        browser.startBrowsingForPeers()
+    }
+    
+    func disConnect() {
+        advertiser.stopAdvertisingPeer()
+        browser.stopBrowsingForPeers()
+        session.disconnect()
     }
     
     // 选择照片

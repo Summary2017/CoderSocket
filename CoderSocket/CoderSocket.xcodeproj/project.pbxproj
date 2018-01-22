@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510EA1C62015EB7A00FD5AE5 /* SocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1C52015EB7A00FD5AE5 /* SocketController.swift */; };
+		510EA1C92015F50C00FD5AE5 /* SendFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1C82015F50C00FD5AE5 /* SendFileController.m */; };
+		510EA1CC2015F53600FD5AE5 /* ReceiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1CB2015F53600FD5AE5 /* ReceiveController.m */; };
+		510EA1D02015FC9B00FD5AE5 /* NetWorkListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1CF2015FC9B00FD5AE5 /* NetWorkListener.m */; };
+		510EA1D42016117100FD5AE5 /* ClientFileInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1D32016117100FD5AE5 /* ClientFileInfoModel.m */; };
+		510EA1D7201625FC00FD5AE5 /* UdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1D6201625FC00FD5AE5 /* UdpSocket.m */; };
+		510EA1DA2016285D00FD5AE5 /* TCPClientSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1D92016285D00FD5AE5 /* TCPClientSocket.m */; };
+		510EA1DD2016299300FD5AE5 /* TCPServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1DC2016299300FD5AE5 /* TCPServerSocket.m */; };
+		510EA1E020162A3600FD5AE5 /* ServerFileInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EA1DF20162A3600FD5AE5 /* ServerFileInfoModel.m */; };
 		517220A420158F5400C0A5CB /* MCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517220A320158F5400C0A5CB /* MCController.swift */; };
 		517220A8201597BB00C0A5CB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517220A6201597BB00C0A5CB /* PhotoCell.swift */; };
 		517220A9201597BB00C0A5CB /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517220A7201597BB00C0A5CB /* PhotoCell.xib */; };
@@ -14,6 +23,8 @@
 		517220B120159FE600C0A5CB /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517220B020159FE600C0A5CB /* Public.swift */; };
 		517220B32015A05F00C0A5CB /* HGExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517220B22015A05F00C0A5CB /* HGExtension.swift */; };
 		517220B52015AC5F00C0A5CB /* PhotoAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517220B42015AC5F00C0A5CB /* PhotoAssets.swift */; };
+		5188C7632015EABB001BE5DA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C7602015EABB001BE5DA /* GCDAsyncSocket.m */; };
+		5188C7642015EABB001BE5DA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C7622015EABB001BE5DA /* GCDAsyncUdpSocket.m */; };
 		51EE74BC20158A4100C95D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EE74BB20158A4100C95D16 /* AppDelegate.swift */; };
 		51EE74D520158AB600C95D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EE74CF20158AB500C95D16 /* LaunchScreen.storyboard */; };
 		51EE74D620158AB600C95D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EE74D120158AB500C95D16 /* Main.storyboard */; };
@@ -23,6 +34,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510EA1C52015EB7A00FD5AE5 /* SocketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketController.swift; sourceTree = "<group>"; };
+		510EA1C72015F50C00FD5AE5 /* SendFileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendFileController.h; sourceTree = "<group>"; };
+		510EA1C82015F50C00FD5AE5 /* SendFileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendFileController.m; sourceTree = "<group>"; };
+		510EA1CA2015F53600FD5AE5 /* ReceiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveController.h; sourceTree = "<group>"; };
+		510EA1CB2015F53600FD5AE5 /* ReceiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveController.m; sourceTree = "<group>"; };
+		510EA1CE2015FC9B00FD5AE5 /* NetWorkListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkListener.h; sourceTree = "<group>"; };
+		510EA1CF2015FC9B00FD5AE5 /* NetWorkListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkListener.m; sourceTree = "<group>"; };
+		510EA1D22016117100FD5AE5 /* ClientFileInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientFileInfoModel.h; sourceTree = "<group>"; };
+		510EA1D32016117100FD5AE5 /* ClientFileInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientFileInfoModel.m; sourceTree = "<group>"; };
+		510EA1D5201625FC00FD5AE5 /* UdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		510EA1D6201625FC00FD5AE5 /* UdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UdpSocket.m; sourceTree = "<group>"; };
+		510EA1D82016285D00FD5AE5 /* TCPClientSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPClientSocket.h; sourceTree = "<group>"; };
+		510EA1D92016285D00FD5AE5 /* TCPClientSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPClientSocket.m; sourceTree = "<group>"; };
+		510EA1DB2016299300FD5AE5 /* TCPServerSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPServerSocket.h; sourceTree = "<group>"; };
+		510EA1DC2016299300FD5AE5 /* TCPServerSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPServerSocket.m; sourceTree = "<group>"; };
+		510EA1DE20162A3600FD5AE5 /* ServerFileInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerFileInfoModel.h; sourceTree = "<group>"; };
+		510EA1DF20162A3600FD5AE5 /* ServerFileInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerFileInfoModel.m; sourceTree = "<group>"; };
 		517220A320158F5400C0A5CB /* MCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCController.swift; sourceTree = "<group>"; };
 		517220A6201597BB00C0A5CB /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		517220A7201597BB00C0A5CB /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
@@ -32,6 +60,10 @@
 		517220B020159FE600C0A5CB /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
 		517220B22015A05F00C0A5CB /* HGExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGExtension.swift; sourceTree = "<group>"; };
 		517220B42015AC5F00C0A5CB /* PhotoAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssets.swift; sourceTree = "<group>"; };
+		5188C75F2015EABB001BE5DA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		5188C7602015EABB001BE5DA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		5188C7612015EABB001BE5DA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		5188C7622015EABB001BE5DA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		51EE74B820158A4100C95D16 /* CoderSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EE74BB20158A4100C95D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51EE74D020158AB500C95D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +84,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510EA1C12015EB3700FD5AE5 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				510EA1CD2015F71900FD5AE5 /* Tools */,
+				510EA1C22015EB3F00FD5AE5 /* Controllers */,
+				510EA1C42015EB4F00FD5AE5 /* Views */,
+				510EA1C32015EB4900FD5AE5 /* Models */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		510EA1C22015EB3F00FD5AE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				510EA1C52015EB7A00FD5AE5 /* SocketController.swift */,
+				510EA1C72015F50C00FD5AE5 /* SendFileController.h */,
+				510EA1C82015F50C00FD5AE5 /* SendFileController.m */,
+				510EA1CA2015F53600FD5AE5 /* ReceiveController.h */,
+				510EA1CB2015F53600FD5AE5 /* ReceiveController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		510EA1C32015EB4900FD5AE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		510EA1C42015EB4F00FD5AE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		510EA1CD2015F71900FD5AE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				510EA1D12016116400FD5AE5 /* Models */,
+				510EA1CE2015FC9B00FD5AE5 /* NetWorkListener.h */,
+				510EA1CF2015FC9B00FD5AE5 /* NetWorkListener.m */,
+				510EA1D5201625FC00FD5AE5 /* UdpSocket.h */,
+				510EA1D6201625FC00FD5AE5 /* UdpSocket.m */,
+				510EA1D82016285D00FD5AE5 /* TCPClientSocket.h */,
+				510EA1D92016285D00FD5AE5 /* TCPClientSocket.m */,
+				510EA1DB2016299300FD5AE5 /* TCPServerSocket.h */,
+				510EA1DC2016299300FD5AE5 /* TCPServerSocket.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		510EA1D12016116400FD5AE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				510EA1D22016117100FD5AE5 /* ClientFileInfoModel.h */,
+				510EA1D32016117100FD5AE5 /* ClientFileInfoModel.m */,
+				510EA1DE20162A3600FD5AE5 /* ServerFileInfoModel.h */,
+				510EA1DF20162A3600FD5AE5 /* ServerFileInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		517220A120158F2700C0A5CB /* MC */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +194,25 @@
 			path = Public;
 			sourceTree = "<group>";
 		};
+		5188C75B2015E9D6001BE5DA /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5188C75E2015EABB001BE5DA /* CocoaAsyncSocket */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		5188C75E2015EABB001BE5DA /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5188C75F2015EABB001BE5DA /* GCDAsyncSocket.h */,
+				5188C7602015EABB001BE5DA /* GCDAsyncSocket.m */,
+				5188C7612015EABB001BE5DA /* GCDAsyncUdpSocket.h */,
+				5188C7622015EABB001BE5DA /* GCDAsyncUdpSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
 		51EE74AF20158A4100C95D16 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +232,7 @@
 		51EE74BA20158A4100C95D16 /* CoderSocket */ = {
 			isa = PBXGroup;
 			children = (
+				5188C75B2015E9D6001BE5DA /* libs */,
 				517220AF20159FCE00C0A5CB /* Public */,
 				51EE74D920158B7800C95D16 /* General */,
 				51EE74CD20158A9000C95D16 /* ProFiles */,
@@ -148,6 +264,7 @@
 		51EE74D920158B7800C95D16 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				510EA1C12015EB3700FD5AE5 /* Socket */,
 				517220A120158F2700C0A5CB /* MC */,
 				51EE74DA20158B8000C95D16 /* Home */,
 			);
@@ -245,12 +362,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510EA1D42016117100FD5AE5 /* ClientFileInfoModel.m in Sources */,
 				517220B32015A05F00C0A5CB /* HGExtension.swift in Sources */,
 				517220B52015AC5F00C0A5CB /* PhotoAssets.swift in Sources */,
 				517220A8201597BB00C0A5CB /* PhotoCell.swift in Sources */,
 				51EE74DD20158BA700C95D16 /* HomeController.swift in Sources */,
 				517220B120159FE600C0A5CB /* Public.swift in Sources */,
+				510EA1C62015EB7A00FD5AE5 /* SocketController.swift in Sources */,
+				510EA1D02015FC9B00FD5AE5 /* NetWorkListener.m in Sources */,
+				510EA1E020162A3600FD5AE5 /* ServerFileInfoModel.m in Sources */,
+				510EA1D7201625FC00FD5AE5 /* UdpSocket.m in Sources */,
+				510EA1DD2016299300FD5AE5 /* TCPServerSocket.m in Sources */,
 				517220AE2015997100C0A5CB /* PhotoAssetsModel.m in Sources */,
+				5188C7642015EABB001BE5DA /* GCDAsyncUdpSocket.m in Sources */,
+				510EA1DA2016285D00FD5AE5 /* TCPClientSocket.m in Sources */,
+				5188C7632015EABB001BE5DA /* GCDAsyncSocket.m in Sources */,
+				510EA1CC2015F53600FD5AE5 /* ReceiveController.m in Sources */,
+				510EA1C92015F50C00FD5AE5 /* SendFileController.m in Sources */,
 				517220A420158F5400C0A5CB /* MCController.swift in Sources */,
 				51EE74BC20158A4100C95D16 /* AppDelegate.swift in Sources */,
 			);
